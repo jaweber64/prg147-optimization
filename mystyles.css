@@ -1,0 +1,37 @@
+.constrain{
+    max-width: 960px;
+    min-height: 50px;
+    margin: 10px auto; }
+
+.thumbs {width: 80px;
+    height: 100px;}
+
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background: #444;
+    padding:10px; }
+
+h1,h2,h3,h5{
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;  }
+
+p { padding-left: 15px;
+    text-align: left;}
+
+#container {
+    width: 960px;
+    background-color: #EEE;
+    margin: 10px auto;
+    text-align: center; }
+
+div.mybdr {border-style: solid;
+    border-width: 2px;
+    border-color: #444;}
+
+#main_image {
+    /*border-color: #808080 ;
+    border-style: groove;
+    border-width: 10px;*/
+    height:400px;}

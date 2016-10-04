@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Optimization - Slide Show</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-pink.css">
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body>
+<div id="container" class="w3-panel w3-round-xlarge mybdr w3-theme-light">
+    <header class="w3-panel w3-round head" >
+        <h1>Javascript Optimization - Slides w/Thumbnails</h1>
+    </header>
+    <div class="w3-panel w3-round-xlarge mybdr">
+        <h2>My Family</h2>
+
+        <div class="w3-card-8 w3-dark-grey w3-padding constrain">
+            <div class="w3-row">
+                <div class="w3-threequarter w3-card-8 w3-padding w3-theme-light constrain">
+                    <img id="main_image" src="images/familyMexico2013.png">
+                </div>
+                <div class="w3-quarter constrain">
+                    <h3 id= "title">Family (Mexico) 2013</h3>
+                    <p id="caption"> The eight of us at a photo shoot while on vacation at the NOW Sapphire resort,
+                        Riviera Maya, Mexico in August 2013.  This was the only candid the photographer took and it's
+                        our favorite shot of the entire trip!</p>
+                </div>
+            </div>
+
+            <div class="w3-card-8 w3-theme-light" id="slides">
+                <a href="#"><img src="images/play-left.png" alt="left arrow" class="thumbs"
+                                 id="shift-left"  onclick="changeThumb(1)"></a>
+                <a href="#"><img src="images/family2016_1.png" alt="thumbnail button 1" class="thumbs"
+                                 id="thumb1" onclick="makeLarge(1)"></a>
+                <a href="#"><img src="images/family2016_2.png" alt="thumbnail button 2" class="thumbs"
+                                 id="thumb2" onclick="makeLarge(2)"></a>
+                <a href="#"><img src="images/familyMexico2013.png" alt="thumbnail button 3" class="thumbs"
+                                 id="thumb3" onclick="makeLarge(3)"></a>
+                <a href="#"><img src="images/familybeach2013.png" alt="thumbnail button 4" class="thumbs"
+                                 id="thumb4" onclick="makeLarge(4)"></a>
+                <a href="#"><img src="images/MarkHannahMexico.png" alt="thumbnail button 5" class="thumbs"
+                                 id="thumb5" onclick="makeLarge(5)"></a>
+                <a href="#"><img src="images/play-right.png" alt="right arrow" class="thumbs"
+                                 id="shift-right" onclick="changeThumb(0)"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="slideshow.js"></script>
+</body>
+</html>
